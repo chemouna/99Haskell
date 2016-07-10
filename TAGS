@@ -308,9 +308,12 @@ myReverse3 myReverse314,15
 prop_reverseRoundTrip prop_reverseRoundTrip17,18
 prop_reverseConcatSame prop_reverseConcatSame18,19
 
-./src/Problem54a.hs,50
-module Problem54a Problem54a2,3
-main main9,10
+./src/Problem55.hs,120
+module Problem55 Problem552,3
+cbalTree cbalTree21,22
+cbalTree cbalTree22,23
+return return29,30
+main main30,31
 
 ./src/Problem6.hs,641
 module NinetyNine.Problem6 NinetyNine.Problem60,1
@@ -366,6 +369,26 @@ module NinetyNine.Problem9 NinetyNine.Problem90,1
 pack pack10,11
 packSpec packSpec15,16
 packSpec packSpec16,17
+
+./src/ProblemsTrees54a-60.hs,295
+module ProblemsTrees54a60 ProblemsTrees54a602,3
+data Tree Tree10,11
+data Tree a = Empty Empty10,11
+data Tree a = Empty | Branch Branch10,11
+leaf leaf12,13
+height height14,15
+height height15,16
+cbalTree cbalTree36,37
+cbalTree cbalTree37,38
+return return44,45
+main main45,46
+
+./src/ProblemsTrees54a60.hs,138
+module ProblemsTrees54a60 ProblemsTrees54a602,3
+cbalTree cbalTree21,22
+cbalTree cbalTree22,23
+return return29,30
+main main30,31
 
 ./test/Spec.hs,30
 main main0,1

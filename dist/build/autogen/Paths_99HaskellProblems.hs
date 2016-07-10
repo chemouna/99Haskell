@@ -17,7 +17,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/m.cheikhna/.cabal/bin"
-libdir     = "/Users/m.cheikhna/.cabal/lib/x86_64-osx-ghc-7.10.3/99HaskellProblems-0.1.0.0-IyVjAgj3swnAPQ1mHI3MHT"
+libdir     = "/Users/m.cheikhna/.cabal/lib/x86_64-osx-ghc-7.10.3/99HaskellProblems-0.1.0.0-Dl47NkLIKBCGFlk4bE5wqT"
 datadir    = "/Users/m.cheikhna/.cabal/share/x86_64-osx-ghc-7.10.3/99HaskellProblems-0.1.0.0"
 libexecdir = "/Users/m.cheikhna/.cabal/libexec"
 sysconfdir = "/Users/m.cheikhna/.cabal/etc"

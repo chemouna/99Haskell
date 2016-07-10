@@ -14,6 +14,13 @@
   (major1) == 4 && (major2) <  8 || \
   (major1) == 4 && (major2) == 8 && (minor) <= 2)
 
+/* package containers-0.5.6.2 */
+#define VERSION_containers "0.5.6.2"
+#define MIN_VERSION_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 6)
+
 /* tool alex-3.1.7 */
 #define TOOL_VERSION_alex "3.1.7"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
@@ -98,5 +105,5 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 1)
 
-#define CURRENT_PACKAGE_KEY "99Has_IyVjAgj3swnAPQ1mHI3MHT"
+#define CURRENT_PACKAGE_KEY "99Has_Dl47NkLIKBCGFlk4bE5wqT"
 
