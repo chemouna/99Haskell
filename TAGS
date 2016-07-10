@@ -1,0 +1,372 @@
+
+./app/Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+./Setup.hs,15
+main main1,2
+
+./src/Lib.hs,65
+module LibLib0,1
+someFunc someFunc4,5
+someFunc someFunc5,6
+
+./src/Problem1.hs,229
+module NinetyNine.Problem1 NinetyNine.Problem10,1
+myLast myLast5,6
+myLast myLast6,7
+myLast2 myLast210,11
+myLast2 myLast211,12
+myLast3 myLast313,14
+myLast4 myLast415,16
+prop_lastOneElement prop_lastOneElement20,21
+
+./src/Problem10.hs,483
+module NinetyNine.Problem10 NinetyNine.Problem102,3
+encode encode13,14
+encode encode14,15
+encode2 encode215,16
+encode3 encode316,17
+encode4 encode417,18
+encode5 encode519,20
+encode5 encode520,21
+encode6 encode622,23
+encode7 encode725,26
+encodeSpec encodeSpec32,33
+encodeSpec encodeSpec33,34
+prop_encodeLength prop_encodeLength58,59
+prop_encodeFirstElement prop_encodeFirstElement62,63
+prop_encodeLastElement prop_encodeLastElement63,64
+main main67,68
+
+./src/Problem11.hs,421
+module NinetyNine.Problem11 NinetyNine.Problem112,3
+data ListItem ListItem16,17
+data ListItem a = Single Single16,17
+data ListItem a = Single a | Multiple Multiple16,17
+encodeModified encodeModified19,20
+encodeModified encodeModified20,21
+encodeModifiedSpec encodeModifiedSpec27,28
+encodeModifiedSpec encodeModifiedSpec28,29
+prop_encodeModifiedSameSize prop_encodeModifiedSameSize36,37
+main main39,40
+
+./src/Problem12.hs,665
+module NinetyNine.Problem12 NinetyNine.Problem122,3
+decodeS decodeS14,15
+decodeModified decodeModified19,20
+decodeModified decodeModified20,21
+decodeModified2 decodeModified222,23
+decodeModified2 decodeModified223,24
+toTuple toTuple28,29
+toTuple toTuple29,30
+decodeModified3 decodeModified332,33
+decodeModified3 decodeModified333,34
+decodeModified4 decodeModified435,36
+decodeModified4 decodeModified436,37
+decodeModified5 decodeModified541,42
+decodeModified5 decodeModified542,43
+decodeModifiedSpec decodeModifiedSpec45,46
+decodeModifiedSpec decodeModifiedSpec46,47
+prop_decodeRoundtrip prop_decodeRoundtrip69,70
+main main72,73
+
+./src/Problem13.hs,617
+module NinetyNine.Problem13 NinetyNine.Problem132,3
+encodeDirect encodeDirect14,15
+encodeDirect encodeDirect15,16
+groupToListItem groupToListItem23,24
+groupToListItem groupToListItem24,25
+encodeDirect2 encodeDirect227,28
+encodeDirect2 encodeDirect228,29
+encode' encode'32,33
+encode' encode'33,34
+encodeDirect3 encodeDirect340,41
+encodeDirect3 encodeDirect341,42
+encodeDirectSpec encodeDirectSpec48,49
+encodeDirectSpec encodeDirectSpec49,50
+prop_encodeDirectRoundtrip prop_encodeDirectRoundtrip64,65
+prop_encodeDirectSameAsReference prop_encodeDirectSameAsReference65,66
+main main68,69
+
+./src/Problem14.hs,541
+module NintetyNine.Problem14 NintetyNine.Problem142,3
+dupli dupli13,14
+dupli dupli14,15
+dupli2 dupli217,18
+dupli2 dupli218,19
+dupli3 dupli320,21
+dupli3 dupli321,22
+dupli4 dupli423,24
+dupli4 dupli424,25
+dupli5 dupli526,27
+dupli6 dupli628,29
+dupli6 dupli629,30
+dupli7 dupli731,32
+dupli7 dupli732,33
+dupli8 dupli834,35
+dupli8 dupli835,36
+dupli9 dupli937,38
+dupli9 dupli938,39
+dupliSpec dupliSpec41,42
+dupliSpec dupliSpec42,43
+prop_dupliShouldDoubleSize prop_dupliShouldDoubleSize66,67
+main main77,78
+
+./src/problem15.hs,436
+module NintetyNine.Problem15 NintetyNine.Problem152,3
+repli repli14,15
+repli repli15,16
+repli2 repli219,20
+repli2 repli220,21
+repli3 repli324,25
+repli3 repli325,26
+repli4 repli430,31
+repli4 repli431,32
+repli5 repli535,36
+repli5 repli536,37
+repli6 repli638,39
+repli6 repli639,40
+repliSpec repliSpec46,47
+repliSpec repliSpec47,48
+prop_sizeShouldMultiplyByN prop_sizeShouldMultiplyByN76,77
+main main81,82
+
+./src/Problem16.hs,313
+module NintetyNine.Problem16 NintetyNine.Problem162,3
+dropEvery dropEvery12,13
+dropEvery dropEvery13,14
+dropEvery2 dropEvery218,19
+dropEvery2 dropEvery219,20
+dropEvery3 dropEvery324,25
+dropEvery3 dropEvery325,26
+dropEverySpec dropEverySpec48,49
+dropEverySpec dropEverySpec49,50
+main main62,63
+
+./src/problem17.hs,247
+module NinetyNine.Problem17 NinetyNine.Problem172,3
+split split12,13
+split split13,14
+split2 split215,16
+split2 split216,17
+split3 split318,19
+split3 split319,20
+splitSpec splitSpec26,27
+splitSpec splitSpec27,28
+main main42,43
+
+./src/Problem18.hs,271
+module NinetyNine.Problem18 NinetyNine.Problem182,3
+slice slice9,10
+slice slice10,11
+slice2 slice213,14
+slice2 slice214,15
+slice3 slice317,18
+slice3 slice318,19
+slice4 slice421,22
+slice4 slice422,23
+sliceSpec sliceSpec24,25
+sliceSpec sliceSpec25,26
+
+./src/Problem19.hs,362
+module NinetyNine.Problem19 NinetyNine.Problem192,3
+rotate rotate11,12
+rotate rotate12,13
+rotate2 rotate214,15
+rotate2 rotate215,16
+rotate3 rotate317,18
+rotate3 rotate318,19
+rotate4 rotate421,22
+rotate4 rotate422,23
+rotateSpec rotateSpec26,27
+rotateSpec rotateSpec27,28
+prop_nthEltBecomesLast prop_nthEltBecomesLast41,42
+main main44,45
+
+./src/Problem2.hs,188
+module NinetyNine.Problem2 NinetyNine.Problem20,1
+myButLast myButLast2,3
+myButLast myButLast3,4
+myButLast2 myButLast29,10
+myButLast3 myButLast311,12
+myButLast4 myButLast413,14
+
+./src/problem20.hs,679
+module NinetyNine.Problem20 NinetyNine.Problem203,4
+removeAt removeAt13,14
+removeAt removeAt14,15
+removeAt2 removeAt220,21
+removeAt2 removeAt221,22
+removeAt3 removeAt323,24
+removeAt3 removeAt324,25
+removeAt4 removeAt428,29
+removeAt4 removeAt429,30
+removeAt5 removeAt534,35
+removeAt5 removeAt535,36
+removeAt6 removeAt638,39
+removeAt6 removeAt639,40
+removeAt7 removeAt741,42
+removeAt7 removeAt742,43
+removeAt8 removeAt844,45
+removeAt8 removeAt845,46
+removeAtSpec removeAtSpec49,50
+removeAtSpec removeAtSpec50,51
+prop_lengthSecondElement prop_lengthSecondElement72,73
+prop_lengthSecondElement prop_lengthSecondElement73,74
+main main76,77
+
+./src/problem21.hs,194
+insertAt insertAt11,12
+insertAt insertAt12,13
+insertAtSpec insertAtSpec22,23
+insertAtSpec insertAtSpec23,24
+prop_shouldBeAtItsPosition prop_shouldBeAtItsPosition29,30
+main main32,33
+
+./src/problem22.hs,275
+module NinetyNine.Problem22 NinetyNine.Problem221,2
+range range6,7
+range range7,8
+range2 range29,10
+range2 range210,11
+range3 range312,13
+range3 range313,14
+range4 range415,16
+range4 range416,17
+rangeAtSpec rangeAtSpec21,22
+rangeAtSpec rangeAtSpec22,23
+
+./src/problem23.hs,54
+module NinetyNine.Problem23 NinetyNine.Problem231,2
+
+./src/problem26.hs,120
+module NinetyNine.Problem26 NinetyNine.Problem262,3
+combinations combinations12,13
+combinations combinations13,14
+
+./src/Problem28.hs,285
+module NinetyNine.Problem28 NinetyNine.Problem280,1
+lsort lsort8,9
+lsort lsort9,10
+lsort2 lsort211,12
+lsort2 lsort212,13
+lsortSpec lsortSpec14,15
+lsortSpec lsortSpec15,16
+lfsort lfsort23,24
+lfsort lfsort25,26
+lfsortSpec lfsortSpec28,29
+lfsortSpec lfsortSpec29,30
+
+./src/Problem3.hs,257
+module NinetyNine.Problem3 NinetyNine.Problem30,1
+elementAt elementAt6,7
+elementAt elementAt7,8
+elementAt2 elementAt214,15
+elementAt3 elementAt316,17
+elementAt4 elementAt420,21
+elementAt4 elementAt421,22
+prop_elementAt2 prop_elementAt231,32
+
+./src/Problem4.hs,755
+module NinetyNine.Problem4 NinetyNine.Problem41,2
+myLength myLength6,7
+myLength myLength7,8
+myLength2 myLength211,12
+myLength2 myLength212,13
+myLength3 myLength318,19
+myLength3 myLength319,20
+myLength4 myLength422,23
+myLength4 myLength423,24
+myLength5 myLength526,27
+myLength5 myLength527,28
+myLength6 myLength630,31
+myLength6 myLength631,32
+myLength7 myLength734,35
+myLength7 myLength735,36
+myLength8 myLength838,39
+myLength8 myLength839,40
+myLength9 myLength944,45
+myLength9 myLength945,46
+myLength10 myLength1047,48
+myLength10 myLength1048,49
+myLength11 myLength1150,51
+myLength11 myLength1151,52
+myLength12 myLength1254,55
+myLength12 myLength1255,56
+prop_myLengthTwoLists prop_myLengthTwoLists59,60
+
+./src/Problem5.hs,321
+module NinetyNine.Problem5 NinetyNine.Problem50,1
+myReverse myReverse4,5
+myReverse myReverse5,6
+myReverse2 myReverse29,10
+myReverse2 myReverse210,11
+myReverse3 myReverse313,14
+myReverse3 myReverse314,15
+prop_reverseRoundTrip prop_reverseRoundTrip17,18
+prop_reverseConcatSame prop_reverseConcatSame18,19
+
+./src/Problem54a.hs,50
+module Problem54a Problem54a2,3
+main main9,10
+
+./src/Problem6.hs,641
+module NinetyNine.Problem6 NinetyNine.Problem60,1
+isPalindrome isPalindrome8,9
+isPalindrome isPalindrome9,10
+isPalindrome2 isPalindrome212,13
+isPalindrome2 isPalindrome213,14
+isPalindrome3 isPalindrome318,19
+isPalindrome3 isPalindrome319,20
+palindrome5 palindrome526,27
+palindrome5 palindrome527,28
+palindrome6 palindrome630,31
+isPalindrome8 isPalindrome836,37
+isPalindrome9 isPalindrome944,45
+isPalindrome10 isPalindrome1051,52
+isPalindrome10 isPalindrome1052,53
+prop_isPalindromeReverse prop_isPalindromeReverse58,59
+prop_isPalindrome prop_isPalindrome60,61
+prop_isNotPalindrome prop_isNotPalindrome62,63
+
+./src/Problem7.hs,377
+module NinetyNine.Problem7 NinetyNine.Problem72,3
+data NestedList NestedList7,8
+data NestedList a = Elem Elem7,8
+data NestedList a = Elem a | List List7,8
+flatten flatten10,11
+flatten flatten11,12
+flatten2 flatten215,16
+flatten2 flatten216,17
+flatten3 flatten321,22
+flatten4 flatten425,26
+flatten4 flatten426,27
+prop_flattenEmpty prop_flattenEmpty31,32
+
+./src/Problem8.hs,411
+module NinetyNine.Problem8 NinetyNine.Problem80,1
+compress compress10,11
+compress compress11,12
+compress2 compress214,15
+compress3 compress320,21
+compress3 compress321,22
+compress4 compress425,26
+compress4 compress426,27
+compress5 compress529,30
+compress5 compress530,31
+compress6 compress633,34
+compress6 compress634,35
+compressSpec compressSpec38,39
+compressSpec compressSpec39,40
+
+./src/Problem9.hs,119
+module NinetyNine.Problem9 NinetyNine.Problem90,1
+pack pack10,11
+packSpec packSpec15,16
+packSpec packSpec16,17
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
