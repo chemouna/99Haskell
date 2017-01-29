@@ -22,6 +22,20 @@ split3 l@(x:xs) n | n > 0 = (x:ys, zs)
                   | otherwise = ([],l)
                where (ys,zs) = split3 xs (n-1)
 
+split4 :: [a] -> Int -> ([a], [a])
+split4 xs n = (p1, p2)
+  where
+    p1 = map snd $ filter ((<= n) . fst) (zip [1..] xs)
+    p2 = map snd $ filter ((> n) . fst) (zip [1..] xs)
+
+-- a better more optimized way to write split4
+split5 :: [a] -> Int -> ([a], [a])
+split5 xs n =
+  let y = zip [1..] xs
+      p1 = map snd $ filter ((<= n) . fst) y
+      p2 = map snd $ filter ((> n) . fst) y
+  in (p1, p2)
+
 -- Test
 -- hspec
 splitSpec :: Spec
@@ -33,6 +47,10 @@ splitSpec = do
       split2 "abcdefghik" 3 `shouldBe` ("abc", "defghik")
      it "[With split3] Split a list into two." $ do
       split3 "abcdefghik" 3 `shouldBe` ("abc", "defghik")
+     it "[With split4] Split a list into two." $ do
+      split4 "abcdefghik" 3 `shouldBe` ("abc", "defghik")
+     it "[With split5] Split a list into two." $ do
+      split5 "abcdefghik" 3 `shouldBe` ("abc", "defghik")
 
 
 -- QuickCheck

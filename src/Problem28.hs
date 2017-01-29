@@ -36,3 +36,4 @@ lfsortSpec = do
 -- suppose that a list contains elements that are lists themselves.
 -- sort the elements of this list according to their length frequency;
 -- i.e., in the default, where sorting is done ascendingly, lists with rare lengths are placed first, others with a more frequent length come later.
+hask

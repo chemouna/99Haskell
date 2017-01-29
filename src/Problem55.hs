@@ -1,10 +1,12 @@
 {-# LANGUAGE TemplateHaskell #-}
+-- {-# LANGUAGE UnicodeSyntax #-}
 
 module Problem55 where
 
+-- import Prelude.Unicode
 import Test.QuickCheck
 import Test.QuickCheck.All
-xb
+
 -- Construct completely balanced binary trees:
 -- abs |nb nodes (left subtree) -  nb nodes (right subtree)| <= 1
 
@@ -16,15 +18,17 @@ xb
 
 -- p2: Branch 'x' (Branch 'x' Empty Empty)
 --            (Branch 'x' (Branch 'x' Empty Empty)
---                        Empty),
+--
 
+date Tree a = Empty | Branch a (Tree a) (Tree a)
+          deriving (Show, Eq)
 
-cbalTree :: Int -> [Tree char]
-cbalTree 0 = [Empty]
-cbalTree n = let (q,r) = (n - 1) `quotRem` 2
-      in [Branch 'x' left right | i <- [q .. q + r],
-                                            left <- cbalTree i,
-                                            right <- cbalTree (n-i-1)]
+-- cbalTree :: Int -> [Tree char]
+-- cbalTree 0 = [Empty]
+-- cbalTree n = let (q,r) = (n - 1) `quotRem` 2
+--       in [Branch 'x' left right | i <- [q .. q + r],
+--                                             left <- cbalTree i,
+--                                             right <- cbalTree (n-i-1)]
 
 
 return = []
